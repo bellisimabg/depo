@@ -1,5 +1,47 @@
-public class Exercise{
-  private String name;
-  private String description;
-  private Strign difficultyLevel;
-  }
+public class Exercise {
+	private int exerciseId;
+	private String name;
+	private String description;
+	private String difficultyLevel;
+	
+	public Exercise(int exerciseId,String name,String description,String difficultyLevel) {
+		this.exerciseId=exerciseId;
+		this.name=name;
+		this.description=description;
+		this.difficultyLevel=difficultyLevel;
+	}
+
+	public int getExerciseId() {
+		return exerciseId;
+	}
+
+	public void setExerciseId(int exerciseId) {
+		this.exerciseId = exerciseId;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public String getDifficultyLevel() {
+		return difficultyLevel;
+	}
+
+	public void setDifficultyLevel(String difficultyLevel) {
+		this.difficultyLevel = difficultyLevel;
+	}
+	
+
+}
