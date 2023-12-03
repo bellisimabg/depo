@@ -1,5 +1,47 @@
-public class Trainer{
-  private int trainerId;
-  private String name;
-  private String specialaztion;
-  private String contactNumber;
+public class Trainer {
+	private int trainerId;
+	private String name;
+	private String specialzation;
+	private String contactNumber;
+	
+	public Trainer(int trainerId,String name,String specialzation,String contactNumber) {
+		this.trainerId=trainerId;
+		this.name=name;
+		this.specialzation=specialzation;
+		this.contactNumber=contactNumber;
+}
+
+	public int getTrainerId() {
+		return trainerId;
+	}
+
+	public void setTrainerId(int trainerId) {
+		this.trainerId = trainerId;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getSpecialzation() {
+		return specialzation;
+	}
+
+	public void setSpecialzation(String specialzation) {
+		this.specialzation = specialzation;
+	}
+
+	public String getContactNumber() {
+		return contactNumber;
+	}
+
+	public void setContactNumber(String contactNumber) {
+		this.contactNumber = contactNumber;
+	}
+	
+
+}
