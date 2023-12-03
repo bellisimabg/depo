@@ -1,0 +1,5 @@
+public class Trainer{
+  private int trainerId;
+  private String name;
+  private String specialaztion;
+  private String contactNumber;
