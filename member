@@ -1,7 +1,46 @@
-public class Member{
-  private String name;
-  private int memberId;
-  private int age;
-  private String contactNumber;
-  
-  }
+public class Member {
+	private int memberId;
+	private String name;
+	private int age;
+	private String contactNumber;
+	
+	public Member(int memberId,String name,int age,String contactNumber) {
+		this.memberId=memberId;
+		this.name=name;
+		this.age=age;
+		this.contactNumber=contactNumber;
+	}
+
+	public int getMemberId() {
+		return memberId;
+	}
+
+	public void setMemberId(int memberId) {
+		this.memberId = memberId;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getContactNumber() {
+		return contactNumber;
+	}
+
+	public void setContactNumber(String contactNumber) {
+		this.contactNumber = contactNumber;
+	}
+}
+
